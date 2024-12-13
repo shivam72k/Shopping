@@ -23,6 +23,12 @@ function Fourground() {
       close: false,
       tag: { isOpen: false, tagTitle: "Upload", tagColor: "green" },
     },
+    {
+      desc: "Lorem ipsum dolor sit amet Shivam",
+      filesize: ".9mb",
+      close: false,
+      tag: { isOpen: false, tagTitle: "Upload", tagColor: "green" },
+    },
   ];
 
   return (
@@ -34,6 +40,7 @@ function Fourground() {
         <Card key={index} data={item} reference={ref} />
       ))}
     </div>
+    
   );
 }
 
